@@ -1,2 +1,5 @@
 # docker-wscat
-wscat docker image based on node:alpine
+
+```sh
+alias wscat='docker run -it --rm --net=host psmtecdklein/docker-wscat'
+```
