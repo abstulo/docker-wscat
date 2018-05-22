@@ -1,3 +1,3 @@
-FROM node:alpine
+FROM node:slim
 RUN npm install -g wscat
 ENTRYPOINT ["wscat"]
